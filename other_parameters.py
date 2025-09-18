@@ -34,6 +34,45 @@ for flag in flags_dict:
     else:
         flags_dict[flag]["wikipedia_en_url"] = "https://en.wikipedia.org/wiki/" + flag
 
+"""Add miscellaneous params"""
+for flag in list(flags_dict):
+    try:
+        from_year = flags_dict[flag]["flag_from_year"]
+    except:
+        flags_dict[flag]["flag_from_year"] = None
+    try:
+        to_year = flags_dict[flag]["flag_to_year"]
+    except:
+        flags_dict[flag]["flag_to_year"] = None
+    try:
+        descriptor = flags_dict[flag]["flag_of_descriptor"]
+    except:
+        flags_dict[flag]["flag_of_descriptor"] = None
+    try:
+        descriptor = flags_dict[flag]["associated_state"]
+    except:
+        flags_dict[flag]["associated_state"] = None
+    try:
+        descriptor = flags_dict[flag]["sovereign_state"]
+    except:
+        flags_dict[flag]["sovereign_state"] = None
+    try:
+        descriptor = flags_dict[flag]["parent_unit"]
+    except:
+        flags_dict[flag]["parent_unit"] = None
+    try:
+        descriptor = flags_dict[flag]["latest_entities"]
+    except:
+        flags_dict[flag]["latest_entities"] = []
+    try:
+        descriptor = flags_dict[flag]["previous_flag_of"]
+    except:
+        flags_dict[flag]["previous_flag_of"] = None
+    try:
+        descriptor = flags_dict[flag]["international_organizations"]
+    except:
+        flags_dict[flag]["international_organizations"] = []
+
 
 """----- EXPORT DATA & PARAM JSONs -----"""
 with open(flags_dict_all_params_path, "w") as file:
