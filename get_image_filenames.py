@@ -9,6 +9,7 @@ staging_DIR = "staging"
 
 flags_dict_names_categories_path = os.path.join(data_DIR, "flags_dict_names_categories.json")
 #flags_dict_names_categories_path = os.path.join(staging_DIR, "flags_dict_names_categories.json")
+#previous_flags_dict_path = os.path.join(staging_DIR, "flags_dict_names_categories.json")
 flag_image_filenames_path = os.path.join(data_DIR, "flag_image_filenames.json")
 #flag_image_filenames_path = os.path.join(staging_DIR, "flag_image_filenames.json")
 #flag_image_filenames_path = os.path.join(staging_DIR, "flag_image_filenames_new.json")
@@ -25,6 +26,9 @@ wiki_page_exceptions_path = os.path.join(exceptions_DIR, "wiki_page_exceptions.j
 """Input/Output sources"""
 with open(flags_dict_names_categories_path, "r") as file:
     flags_dict = json.load(file)
+    
+#with open(previous_flags_dict_path, "r") as file:
+#    flags_dict = json.load(file)
 
 #with open(wiki_images_not_found_path, "r") as file:
 #    flags_not_found = json.load(file)

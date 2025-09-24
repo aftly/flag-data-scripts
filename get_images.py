@@ -26,10 +26,10 @@ svg_exceptions_preview_path = os.path.join(exceptions_DIR, "svg_exceptions_previ
 
 
 """Import flag image filenames to query Wikimedia Commons API for full image URLs"""
-#with open(flag_filenames_path, "r") as file:
-#    flag_filenames = json.load(file)
-with open(flag_filenames_select_path, "r") as file:
+with open(flag_filenames_path, "r") as file:
     flag_filenames = json.load(file)
+#with open(flag_filenames_select_path, "r") as file:
+#    flag_filenames = json.load(file)
     
 """Uncomment to retry downloads of failed images"""
 #with open(flag_image_download_failed_path, "r") as file:
