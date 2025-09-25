@@ -11,6 +11,7 @@ flags_dict_names_categories_path = os.path.join(data_DIR, "flags_dict_names_cate
 #flags_dict_names_categories_path = os.path.join(staging_DIR, "flags_dict_names_categories.json")
 #previous_flags_dict_path = os.path.join(staging_DIR, "flags_dict_names_categories.json")
 flag_image_filenames_path = os.path.join(data_DIR, "flag_image_filenames.json")
+flag_image_filenames_new_path = os.path.join(data_DIR, "flag_image_filenames_new.json")
 #flag_image_filenames_path = os.path.join(staging_DIR, "flag_image_filenames.json")
 #flag_image_filenames_path = os.path.join(staging_DIR, "flag_image_filenames_new.json")
 wiki_images_not_found_path = os.path.join(data_DIR, "wiki_images_not_found.json")
@@ -202,7 +203,7 @@ for flag, info in flags_dict.items():
 
 """Export wiki_images to .json"""
 if wiki_images:
-    with open(flag_image_filenames_path, "w") as file:
+    with open(flag_image_filenames_new_path, "w") as file:
         json.dump(wiki_images, file, indent=4, sort_keys=True)
     print(f"--- \"{flag_image_filenames_path}\" exported. ---")
 else:

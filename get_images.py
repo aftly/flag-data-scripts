@@ -10,7 +10,7 @@ image_DIR = "image"
 staging_DIR = "staging" # For new data
 os.makedirs(image_DIR, exist_ok=True)
 
-flag_filenames_path = os.path.join(data_DIR, "wiki_images_flags_dict_get.json")
+flag_filenames_path = os.path.join(data_DIR, "flag_image_filenames.json")
 #flag_filenames_path = os.path.join(staging_DIR, "flag_image_filenames.json")
 flag_filenames_select_path = os.path.join(data_DIR, "flag_image_filenames_select.json")
 flag_image_download_failed_path = os.path.join(image_DIR, "flag_image_download_failed.json")
