@@ -83,9 +83,17 @@ for flag, info in list(flags_dict.items()):
     except:
         flags_dict[flag]["flag_from_year"] = None
     try:
+        from_year_circa = info["flag_from_year_circa"]
+    except:
+        flags_dict[flag]["flag_from_year_circa"] = None
+    try:
         to_year = info["flag_to_year"]
     except:
         flags_dict[flag]["flag_to_year"] = None
+    try:
+        from_to_circa = info["flag_to_year_circa"]
+    except:
+        flags_dict[flag]["flag_to_year_circa"] = None
     try:
         descriptor = info["flag_of_descriptor"]
     except:
