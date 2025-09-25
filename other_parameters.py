@@ -49,6 +49,26 @@ for flag, info in list(flags_dict.items()):
 """Add miscellaneous params"""
 for flag, info in list(flags_dict.items()):
     try:
+        categories = info["categories"]
+    except:
+        try:
+            if info["previous_flag_of"]:
+                flags_dict[flag]["categories"] = ["historical"]
+            else:
+                flags_dict[flag]["categories"] = []
+        except:
+            flags_dict[flag]["categories"] = []
+    try:
+        categories = info["category_count"]
+    except:
+        try:
+            if info["previous_flag_of"]:
+                flags_dict[flag]["category_count"] = 1
+            else:
+                flags_dict[flag]["category_count"] = len(info["categories"])
+        except:
+            flags_dict[flag]["category_count"] = len(info["categories"])
+    try:
         flag_of = info["flag_of"]
     except:
         flags_dict[flag]["flag_of"] = None
