@@ -37,6 +37,7 @@ for key, info in flags_dict.items():
     image_res = re.sub(r"([^\W\d_])[\u0300-\u036f]+", "_", image_res)
     image_res = unicodedata.normalize("NFC", image_res)
     image_res = image_res.lower()
+    image_res = "_" + image_res[1:] if image_res[0].isdigit() else image_res
     #image_res = re.sub("[-'.,()Åãáéíôóçü]", "_", image_res).lower()
 
     """Reformat flag key to Kotlin format"""
