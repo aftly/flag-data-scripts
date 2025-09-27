@@ -20,17 +20,17 @@ for key, info in flags_dict.items():
     
     """flag_of"""
     if info["flag_of"] != None:
-        primary_name = info["flag_of"]
+        primary_name = info["flag_of"].replace("'", "\\'")
         print(f"{xml_1}{name_res}{xml_2}{primary_name}{xml_3}")
         
     """flag_of_descriptor"""
     if info["flag_of_descriptor"] != None:
-        descriptor_name = info["flag_of_descriptor"]
+        descriptor_name = info["flag_of_descriptor"].replace("'", "\\'")
         print(f"{xml_1}{name_res}_descriptor{xml_2}{descriptor_name}{xml_3}")
     
     """flag_of_official"""
     if info["flag_of_official"] != None:
-        official_name = info["flag_of_official"]
+        official_name = info["flag_of_official"].replace("'", "\\'")
         print(f"{xml_1}{name_res}_official{xml_2}{official_name}{xml_3}")
     
     """wiki_path"""
