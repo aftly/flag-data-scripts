@@ -3,8 +3,8 @@ import os
 import re
 import unicodedata
 
-data_DIR = "DATA_JSONs"
-exceptions_DIR = "EXCEPTIONS_JSONs"
+data_DIR = "data"
+exceptions_DIR = "exceptions"
 
 flags_dict_ordered_all_params_path = os.path.join(data_DIR, "flags_dict_ordered_all_params.json")
 svg_exceptions_preview_path = os.path.join(exceptions_DIR, "svg_exceptions_preview.json")
@@ -72,7 +72,9 @@ for key, info in flags_dict.items():
     flag_view_dict["imagePreview"] = image_res + preview_append
     
     flag_view_dict["fromYear"] = info["flag_from_year"]
+    flag_view_dict["fromYearCirca"] = info["flag_from_year_circa"]
     flag_view_dict["toYear"] = info["flag_to_year"]
+    flag_view_dict["toYearCirca"] = info["flag_to_year_circa"]
     
     if info["previous_flag_of"] != None:
         flag_of_dict = {}

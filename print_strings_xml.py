@@ -1,7 +1,7 @@
 import json
 import os
 
-data_DIR = "DATA_JSONs"
+data_DIR = "data"
 
 flags_dict_ordered_all_params_path = os.path.join(data_DIR, "flags_dict_ordered_all_params.json")
 
