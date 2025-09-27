@@ -4825,6 +4825,36 @@
         ]
     },
     "Commonwealth_of_Nations": {
+        "wikipedia_en_url": "https://en.wikipedia.org/wiki/Commonwealth_of_Nations",
+        "image": "Commonwealth_Flag_2013.svg",
+        "flag_from_year": 2013,
+        "flag_from_year_circa": false,
+        "flag_to_year": 0,
+        "flag_to_year_circa": false,
+        "flag_of": "Commonwealth of Nations",
+        "flag_of_descriptor": null,
+        "flag_of_official": "Commonwealth of Nations",
+        "flag_of_alt_count": 4,
+        "flag_of_alt": [
+            "Commonwealth",
+            "the Commonwealth",
+            "British Commonwealth of Nations",
+            "British Commonwealth"
+        ],
+        "flag_of_is_the": true,
+        "flag_of_official_is_the": true,
+        "international_organizations": [],
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": [],
+        "previous_flag_of": null,
+        "category_count": 1,
+        "categories": [
+            "international_organization"
+        ]
+    },
+    "Commonwealth_of_Nations_(1976)": {
         "wikipedia_en_url": null,
         "image": "Flag_of_the_Commonwealth_of_Nations_(1976\u20132013).svg",
         "flag_from_year": 1976,
@@ -15010,7 +15040,7 @@
         "previous_flag_of": null,
         "category_count": 3,
         "categories": [
-            "devolved",
+            "devolved_government",
             "unicameral",
             "assembly"
         ]
