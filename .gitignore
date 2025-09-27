@@ -2,6 +2,8 @@
 *(Copy).py
 *(Copy *).py
 data/flags_dict_all_params.json
+data/flags_map.json
+data/strings_xml.txt
 data/old
 exceptions/old
 staging
