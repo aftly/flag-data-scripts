@@ -6687,6 +6687,35 @@
             "devolved_government"
         ]
     },
+    "FIAV": {
+        "wikipedia_en_url": "https://en.wikipedia.org/wiki/International_Federation_of_Vexillological_Associations",
+        "image": "Flag_of_FIAV.svg",
+        "flag_from_year": 1967,
+        "flag_from_year_circa": false,
+        "flag_to_year": 0,
+        "flag_to_year_circa": false,
+        "flag_of": "FIAV",
+        "flag_of_descriptor": null,
+        "flag_of_official": "International Federation of Vexillological Associations",
+        "flag_of_alt_count": 1,
+        "flag_of_alt": [
+            "IFoVA"
+        ],
+        "flag_of_is_the": true,
+        "flag_of_official_is_the": true,
+        "international_organizations": [],
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": [],
+        "previous_flag_of": null,
+        "category_count": 3,
+        "categories": [
+            "vexillology",
+            "international_organization",
+            "federal"
+        ]
+    },
     "Falkland_Islands": {
         "wikipedia_en_url": "https://en.wikipedia.org/wiki/Falkland_Islands",
         "image": "Flag_of_the_Falkland_Islands.svg",
@@ -9041,35 +9070,6 @@
         "category_count": 1,
         "categories": [
             "republic_unit"
-        ]
-    },
-    "International_Federation_of_Vexillological_Associations": {
-        "wikipedia_en_url": "https://en.wikipedia.org/wiki/International_Federation_of_Vexillological_Associations",
-        "image": "Flag_of_FIAV.svg",
-        "flag_from_year": 1967,
-        "flag_from_year_circa": false,
-        "flag_to_year": 0,
-        "flag_to_year_circa": false,
-        "flag_of": "FIAV",
-        "flag_of_descriptor": null,
-        "flag_of_official": "International Federation of Vexillological Associations",
-        "flag_of_alt_count": 1,
-        "flag_of_alt": [
-            "IFoVA"
-        ],
-        "flag_of_is_the": false,
-        "flag_of_official_is_the": false,
-        "international_organizations": [],
-        "associated_state": null,
-        "sovereign_state": null,
-        "parent_unit": null,
-        "latest_entities": [],
-        "previous_flag_of": null,
-        "category_count": 3,
-        "categories": [
-            "vexillology",
-            "international_organization",
-            "federal"
         ]
     },
     "Iowa": {
@@ -13766,10 +13766,11 @@
         "parent_unit": null,
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 2,
+        "category_count": 3,
         "categories": [
             "directorial",
-            "international_organization"
+            "international_organization",
+            "military"
         ]
     },
     "Namibia": {
@@ -17263,8 +17264,9 @@
         "parent_unit": null,
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 1,
+        "category_count": 2,
         "categories": [
+            "maritime",
             "charity"
         ]
     },
