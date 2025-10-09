@@ -8,5 +8,6 @@ data/old
 exceptions/old
 staging
 image
+custom.py
 print_info.py
 *select*.json
