@@ -81,6 +81,7 @@ with open(svg_exceptions_preview_path, "r") as file:
     svg_exceptions_preview = json.load(file)
 
 
+
 #with open(flags_dict_all_params_new_path, "w") as file:
 #    json.dump(flags_dict, file, indent=4, sort_keys=True)
     

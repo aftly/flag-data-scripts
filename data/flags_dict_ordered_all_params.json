@@ -4606,7 +4606,7 @@
         "image": "Cinque_Ports_flag.svg",
         "flag_from_year": 1200,
         "flag_from_year_circa": true,
-        "flag_to_year": 0,
+        "flag_to_year": 2017,
         "flag_to_year_circa": false,
         "flag_of": null,
         "flag_of_descriptor": null,
@@ -6355,7 +6355,7 @@
         "sovereign_state": null,
         "parent_unit": null,
         "latest_entities": null,
-        "previous_flag_of": "Commonwealth_of_Nations",
+        "previous_flag_of": "England_(kingdom)",
         "category_count": 1,
         "categories": [
             "historical"
