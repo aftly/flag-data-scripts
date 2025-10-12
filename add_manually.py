@@ -47,8 +47,8 @@ flag_image_download_failed_path = os.path.join(staging_DIR, "flag_image_download
 with open(flags_dict_all_params_path, "r") as file:
     flags_dict = json.load(file)
     
-#with open(flags_dict_all_params_staging_path, "r") as file:
-#    flags_dict_staging = json.load(file)
+with open(flags_dict_all_params_staging_path, "r") as file:
+    flags_dict_staging = json.load(file)
     
 with open(flag_image_filenames_path, "r") as file:
     flag_image_filenames = json.load(file)   

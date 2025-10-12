@@ -8,6 +8,12 @@
         "Circassia",
         "Zichia"
     ],
+    "Commonwealth_of_England": [
+        "English Republic",
+        "Commonwealth",
+        "Interregnum",
+        "Commonwealth of England, Scotland and Ireland"
+    ],
     "Crimea": [
         "Kirim",
         "Q\u0131r\u0131m",
@@ -63,6 +69,9 @@
         "Equestrian Order of the Holy Sepulchre",
         "OESSH",
         "O.E.S.S.H."
+    ],
+    "The_Protectorate": [
+        "Interregnum"
     ],
     "Transgender": [
         "trans person",

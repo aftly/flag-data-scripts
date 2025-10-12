@@ -4790,19 +4790,18 @@
     "Commonwealth_of_England": {
         "wikipedia_en_url": "https://en.wikipedia.org/wiki/Commonwealth_of_England",
         "image": "Flag_of_The_Commonwealth.svg",
-        "flag_from_year": 1649,
+        "flag_from_year": 1651,
         "flag_from_year_circa": false,
-        "flag_to_year": 1660,
+        "flag_to_year": 1653,
         "flag_to_year_circa": false,
         "flag_of": "Commonwealth of England",
         "flag_of_descriptor": null,
         "flag_of_official": "Commonwealth of England",
-        "flag_of_alt_count": 5,
+        "flag_of_alt_count": 4,
         "flag_of_alt": [
             "English Republic",
             "Commonwealth",
             "Interregnum",
-            "Protectorate",
             "Commonwealth of England, Scotland and Ireland"
         ],
         "flag_of_is_the": true,
@@ -4822,6 +4821,31 @@
             "unitary",
             "parliamentary",
             "military_junta"
+        ]
+    },
+    "Commonwealth_of_England_(1649)": {
+        "wikipedia_en_url": null,
+        "image": "Flag_of_the_Commonwealth_(1649-1651).svg",
+        "flag_from_year": 1649,
+        "flag_from_year_circa": false,
+        "flag_to_year": 1651,
+        "flag_to_year_circa": false,
+        "flag_of": null,
+        "flag_of_descriptor": null,
+        "flag_of_official": null,
+        "flag_of_alt_count": null,
+        "flag_of_alt": null,
+        "flag_of_is_the": null,
+        "flag_of_official_is_the": null,
+        "international_organizations": null,
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": null,
+        "previous_flag_of": "Commonwealth_of_England",
+        "category_count": 1,
+        "categories": [
+            "historical"
         ]
     },
     "Commonwealth_of_Nations": {
@@ -15191,8 +15215,10 @@
             "United_Kingdom"
         ],
         "previous_flag_of": null,
-        "category_count": 1,
+        "category_count": 3,
         "categories": [
+            "historical",
+            "sovereign_state",
             "monarchy"
         ]
     },
@@ -20580,6 +20606,63 @@
             "presidential",
             "constitutional",
             "republic"
+        ]
+    },
+    "The_Protectorate": {
+        "wikipedia_en_url": "https://en.wikipedia.org/wiki/The_Protectorate",
+        "image": "Flag_of_the_Commonwealth_(1658\u20131660).svg",
+        "flag_from_year": 1658,
+        "flag_from_year_circa": false,
+        "flag_to_year": 1659,
+        "flag_to_year_circa": false,
+        "flag_of": "The Protectorate",
+        "flag_of_descriptor": null,
+        "flag_of_official": "Commonwealth of England, Scotland and Ireland",
+        "flag_of_alt_count": 1,
+        "flag_of_alt": [
+            "Interregnum"
+        ],
+        "flag_of_is_the": false,
+        "flag_of_official_is_the": true,
+        "international_organizations": [],
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": [
+            "United_Kingdom"
+        ],
+        "previous_flag_of": null,
+        "category_count": 4,
+        "categories": [
+            "historical",
+            "sovereign_state",
+            "unitary",
+            "military_junta"
+        ]
+    },
+    "The_Protectorate_(1953)": {
+        "wikipedia_en_url": null,
+        "image": "Flag_of_The_Commonwealth.svg",
+        "flag_from_year": 1653,
+        "flag_from_year_circa": false,
+        "flag_to_year": 1658,
+        "flag_to_year_circa": false,
+        "flag_of": null,
+        "flag_of_descriptor": null,
+        "flag_of_official": null,
+        "flag_of_alt_count": null,
+        "flag_of_alt": null,
+        "flag_of_is_the": null,
+        "flag_of_official_is_the": null,
+        "international_organizations": null,
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": null,
+        "previous_flag_of": "The_Protectorate",
+        "category_count": 1,
+        "categories": [
+            "historical"
         ]
     },
     "The_Salvation_Army": {
