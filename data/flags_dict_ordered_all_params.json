@@ -12957,7 +12957,7 @@
         "flag_to_year_circa": false,
         "flag_of": "Metropolitan Police",
         "flag_of_descriptor": null,
-        "flag_of_official": "Metropolitan Police",
+        "flag_of_official": "Metropolitan Police Service",
         "flag_of_alt_count": 7,
         "flag_of_alt": [
             "MPS",
@@ -12973,7 +12973,7 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "United_Kingdom",
-        "parent_unit": null,
+        "parent_unit": "Greater_London",
         "latest_entities": [],
         "previous_flag_of": null,
         "category_count": 1,
