@@ -141,6 +141,16 @@ for flag, info in list(flags_dict.items()):
         except:
             flags_dict[flag]["latest_entities"] = []
     try:
+        is_limited_recognition = info["is_limited_recognition"]
+    except:
+        try:
+            if info["previous_flag_of"]:
+                flags_dict[flag]["is_limited_recognition"] = None
+            else:
+                flags_dict[flag]["is_limited_recognition"] = False
+        except:
+            flags_dict[flag]["is_limited_recognition"] = False
+    try:
         previous = info["previous_flag_of"]
     except:
         flags_dict[flag]["previous_flag_of"] = None

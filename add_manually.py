@@ -22,6 +22,8 @@ flag_of_official_is_the_exceptions_path = os.path.join(exceptions_DIR, "flag_of_
 flag_of_official_is_the_exceptions_new_path = os.path.join(exceptions_DIR, "flag_of_official_is_the_exceptions_new.json")
 label_exceptions_path = os.path.join(exceptions_DIR, "label_exceptions.json")
 label_exceptions_new_path = os.path.join(exceptions_DIR, "label_exceptions_new.json")
+official_name_exceptions_path = os.path.join(exceptions_DIR, "official_name_exceptions.json")
+official_name_exceptions_new_path = os.path.join(exceptions_DIR, "official_name_exceptions_new.json")
 alias_exceptions_path = os.path.join(exceptions_DIR, "alias_exceptions.json")
 alias_exceptions_new_path = os.path.join(exceptions_DIR, "alias_exceptions_new.json")
 wiki_page_exceptions_path = os.path.join(exceptions_DIR, "wiki_page_exceptions.json")
@@ -64,7 +66,10 @@ with open(flag_of_official_is_the_exceptions_path, "r") as file:
     
 with open(label_exceptions_path, "r") as file:
     label_exceptions = json.load(file)
-    
+
+with open(official_name_exceptions_path, "r") as file:
+    official_name_exceptions = json.load(file)
+
 with open(alias_exceptions_path, "r") as file:
     alias_exceptions = json.load(file)
 
@@ -101,6 +106,9 @@ with open(svg_exceptions_preview_path, "r") as file:
 
 #with open(label_exceptions_new_path, "w") as file:
 #    json.dump(label_exceptions, file, indent=4, sort_keys=True)
+
+#with open(official_name_exceptions_new_path, "w") as file:
+#    json.dump(official_name_exceptions, file, indent=4, sort_keys=True)
 
 #with open(alias_exceptions_new_path, "w") as file:
 #    json.dump(alias_exceptions, file, indent=4, sort_keys=True)

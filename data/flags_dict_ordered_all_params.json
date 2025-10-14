@@ -123,7 +123,7 @@
         "category_count": 2,
         "categories": [
             "autonomous_region",
-            "region"
+            "state_with_limited_recognition"
         ]
     },
     "Abruzzo": {
@@ -1341,17 +1341,17 @@
         "flag_of_official_is_the": true,
         "international_organizations": [],
         "associated_state": null,
-        "sovereign_state": null,
+        "sovereign_state": "Azerbaijan",
         "parent_unit": null,
         "latest_entities": [
             "Azerbaijan"
         ],
         "previous_flag_of": null,
-        "category_count": 3,
+        "category_count": 2,
         "categories": [
             "historical",
             "autonomous_region",
-            "region"
+            "state_with_limited_recognition"
         ]
     },
     "Aruba": {
@@ -1604,11 +1604,11 @@
             "Mali"
         ],
         "previous_flag_of": null,
-        "category_count": 5,
+        "category_count": 2,
         "categories": [
             "historical",
             "autonomous_region",
-            "region",
+            "state_with_limited_recognition",
             "theocratic",
             "provisional_government"
         ]
@@ -15090,7 +15090,7 @@
         "category_count": 2,
         "categories": [
             "autonomous_region",
-            "region"
+            "state_with_limited_recognition"
         ]
     },
     "Northern_Ireland": {
@@ -16091,10 +16091,10 @@
         "parent_unit": null,
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 5,
+        "category_count": 2,
         "categories": [
             "autonomous_region",
-            "state",
+            "state_with_limited_recognition",
             "unitary",
             "semi_presidential",
             "provisional_government"
@@ -17590,9 +17590,10 @@
         "parent_unit": null,
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 4,
+        "category_count": 5,
         "categories": [
             "territory",
+            "state_with_limited_recognition",
             "unitary",
             "presidential",
             "one_party"
@@ -19197,11 +19198,10 @@
         "parent_unit": null,
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 3,
+        "category_count": 2,
         "categories": [
             "autonomous_region",
-            "region",
-            "state"
+            "state_with_limited_recognition"
         ]
     },
     "Somerset": {
@@ -19483,7 +19483,7 @@
         "category_count": 2,
         "categories": [
             "autonomous_region",
-            "region"
+            "state_with_limited_recognition"
         ]
     },
     "South_Sudan": {
@@ -21170,7 +21170,7 @@
         "category_count": 2,
         "categories": [
             "autonomous_region",
-            "region"
+            "state_with_limited_recognition"
         ]
     },
     "Trentino-Alto_Adige_Sudtirol": {

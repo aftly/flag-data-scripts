@@ -190,12 +190,11 @@ for key, info in flags_dict.items():
         for flag in info["latest_entities"]:
             latest_entity_list.append(toKotlinKey(flag))
     flag_view_dict["latestEntities"] = latest_entity_list
-        
+    
     try:
         flag_view_dict["previousFlagOf"] = toKotlinKey(info["previous_flag_of"])
     except:
         flag_view_dict["previousFlagOf"] = None
-
     
     categories_upper = [category.upper() for category in info["categories"]]
     flag_view_dict["categories"] = categories_upper
