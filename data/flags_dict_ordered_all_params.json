@@ -5156,11 +5156,11 @@
     },
     "Crimea": {
         "wikipedia_en_url": "https://en.wikipedia.org/wiki/Autonomous_Republic_of_Crimea",
-        "image": "Flag_of_Crimea.svg",
-        "flag_from_year": null,
-        "flag_from_year_circa": null,
-        "flag_to_year": null,
-        "flag_to_year_circa": null,
+        "image": "Flag_of_Crimea_(Latest_version).svg",
+        "flag_from_year": 2014,
+        "flag_from_year_circa": false,
+        "flag_to_year": 0,
+        "flag_to_year_circa": false,
         "flag_of": "Crimea",
         "flag_of_descriptor": null,
         "flag_of_official": "Autonomous Republic of Crimea",
@@ -5183,13 +5183,39 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "Ukraine",
-        "parent_unit": null,
+        "parent_unit": "Russia",
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 2,
+        "category_count": 3,
         "categories": [
+            "annexed_territory",
             "autonomous_region",
-            "region"
+            "republic_unit"
+        ]
+    },
+    "Crimea_(Ukraine)": {
+        "wikipedia_en_url": null,
+        "image": "Flag_of_Crimea.svg",
+        "flag_from_year": 1992,
+        "flag_from_year_circa": false,
+        "flag_to_year": 2014,
+        "flag_to_year_circa": false,
+        "flag_of": null,
+        "flag_of_descriptor": null,
+        "flag_of_official": null,
+        "flag_of_alt_count": null,
+        "flag_of_alt": null,
+        "flag_of_is_the": null,
+        "flag_of_official_is_the": null,
+        "international_organizations": null,
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": null,
+        "previous_flag_of": "Crimea",
+        "category_count": 1,
+        "categories": [
+            "historical"
         ]
     },
     "Croatia": {
@@ -5868,12 +5894,12 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "Ukraine",
-        "parent_unit": null,
+        "parent_unit": "Russia",
         "latest_entities": [],
         "previous_flag_of": null,
         "category_count": 2,
         "categories": [
-            "autonomous_region",
+            "annexed_territory",
             "republic_unit"
         ]
     },
@@ -10137,7 +10163,7 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "France",
-        "parent_unit": null,
+        "parent_unit": "New_Caledonia",
         "latest_entities": [],
         "previous_flag_of": null,
         "category_count": 1,
@@ -12003,12 +12029,12 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "Ukraine",
-        "parent_unit": null,
+        "parent_unit": "Russia",
         "latest_entities": [],
         "previous_flag_of": null,
         "category_count": 2,
         "categories": [
-            "autonomous_region",
+            "annexed_territory",
             "republic_unit"
         ]
     },
@@ -15428,7 +15454,7 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "Ukraine",
-        "parent_unit": null,
+        "parent_unit": "Donetsk_(oblast)",
         "latest_entities": [],
         "previous_flag_of": null,
         "category_count": 2,
@@ -16317,7 +16343,7 @@
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": "France",
-        "parent_unit": null,
+        "parent_unit": "Guadeloupe",
         "latest_entities": [],
         "previous_flag_of": null,
         "category_count": 1,
@@ -18651,12 +18677,13 @@
         "flag_of_official_is_the": false,
         "international_organizations": [],
         "associated_state": null,
-        "sovereign_state": "Russia",
-        "parent_unit": null,
+        "sovereign_state": "Ukraine",
+        "parent_unit": "Crimea",
         "latest_entities": [],
         "previous_flag_of": null,
-        "category_count": 1,
+        "category_count": 2,
         "categories": [
+            "annexed_territory",
             "city"
         ]
     },
