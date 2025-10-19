@@ -5763,7 +5763,7 @@
         "previous_flag_of": null,
         "categories": [
             "regional",
-            "political",
+            "political_movement",
             "ethnic"
         ]
     },
@@ -9558,7 +9558,7 @@
         "latest_entities": [],
         "previous_flag_of": null,
         "categories": [
-            "political"
+            "political_organization"
         ]
     },
     "Kansas": {
@@ -14528,7 +14528,7 @@
         "previous_flag_of": null,
         "categories": [
             "historical",
-            "political"
+            "political_movement"
         ]
     },
     "Novosibirsk_(oblast)": {
@@ -15360,7 +15360,7 @@
         "latest_entities": [],
         "previous_flag_of": null,
         "categories": [
-            "political"
+            "political_organization"
         ]
     },
     "Perm_(krai)": {
