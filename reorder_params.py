@@ -25,7 +25,6 @@ ordered_keys = [
     "flag_of",
     "flag_of_descriptor",
     "flag_of_official",
-    "flag_of_alt_count",
     "flag_of_alt",
     "flag_of_is_the",
     "flag_of_official_is_the",
@@ -35,7 +34,6 @@ ordered_keys = [
     "parent_unit",
     "latest_entities",
     "previous_flag_of",
-    "category_count",
     "categories"
 ]
 

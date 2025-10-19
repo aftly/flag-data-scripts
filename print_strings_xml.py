@@ -39,11 +39,11 @@ for key, info in flags_dict.items():
         print(f"{xml_1}{name_res}_wikipedia_url_path{xml_2}{wiki_path}{xml_3}")
     
     """flag_of_alt"""
-    if info["flag_of_alt_count"] != 0 and info["flag_of_alt_count"] != None:
-        if info["flag_of_alt_count"] == 1:
+    if info["flag_of_alt"] and len(info["flag_of_alt"]) != 0:
+        if len(info["flag_of_alt"]) == 1:
             alt_name = info["flag_of_alt"][0].replace("'", "\\'").replace("&", "&amp;")
             print(f"{xml_1}{name_res}_alt{xml_2}{alt_name}{xml_3}")
         else:
-            for i in range(1, info["flag_of_alt_count"] + 1): # Range is exclusive of stop (end) value
+            for i in range(1, len(info["flag_of_alt"]) + 1): # Range is exclusive of stop (end) value
                 alt_name = info["flag_of_alt"][i - 1].replace("'", "\\'").replace("&", "&amp;")
                 print(f"{xml_1}{name_res}_alt_{i}{xml_2}{alt_name}{xml_3}")

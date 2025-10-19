@@ -114,18 +114,18 @@ for key, info in flags_dict.items():
         string_inherit_dict = {"type": "StringResSource.Inherit"}
         flag_of_alternate_list_dict.append(string_inherit_dict)
         flag_view_dict["flagOfAlternate"] = flag_of_alternate_list_dict
-    elif info["flag_of_alt_count"] == 0:
+    elif len(info["flag_of_alt"]) == 0:
         flag_view_dict["flagOfAlternate"] = []
     else:
         flag_of_alternate_list_dict = []
-        if info["flag_of_alt_count"] == 1:
+        if len(info["flag_of_alt"]) == 1:
             string_explicit_dict = {
                 "type": "StringResSource.Explicit",
                 "resName": f"{name_res}_alt"
             }
             flag_of_alternate_list_dict.append(string_explicit_dict)
         else:
-            for i in range(1, info["flag_of_alt_count"] + 1): # Range is exclusive of stop (end) value
+            for i in range(1, len(info["flag_of_alt"]) + 1): # Range is exclusive of stop (end) value
                 string_explicit_dict = {
                     "type": "StringResSource.Explicit",
                     "resName": f"{name_res}_alt_{i}"
