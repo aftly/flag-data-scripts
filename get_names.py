@@ -426,9 +426,8 @@ def return_aliases(data, page):
 
 """Loop through flags_dict and get and set names extracted from wikipedia, then export updated flags_dict to JSON"""
 for flag in flags_dict:
-    """Initialise flag_of_alt and flag_of_alt_count parameters as they aren't necessarily found and set by the script"""
+    """Initialise flag_of_alt"""
     flags_dict[flag]["flag_of_alt"] = []
-    flags_dict[flag]["flag_of_alt_count"] = 0
 
     """Get relevant info from queries"""
     if flag in wiki_page_exceptions:
@@ -481,12 +480,8 @@ for flag in flags_dict:
     
     if flag in alias_exceptions:
         flags_dict[flag]["flag_of_alt"] = alias_exceptions[flag]
-        """Add aliases length to alt count key"""
-        flags_dict[flag]["flag_of_alt_count"] = len(alias_exceptions[flag])
     elif aliases:
         flags_dict[flag]["flag_of_alt"] = aliases
-        """Add aliases length to alt count key"""
-        flags_dict[flag]["flag_of_alt_count"] = len(aliases)
 
 
 with open(flags_dict_names_categories_path, "w") as file:
