@@ -2,6 +2,7 @@ import requests
 import os
 import json
 import time
+from pathlib import Path
 
 """Set paths for input/output"""
 data_DIR = "data" # For existing data
@@ -22,6 +23,7 @@ svg_exceptions_path = os.path.join(exceptions_DIR, "svg_exceptions.json")
 #svg_exceptions_path = os.path.join(staging_DIR, "svg_exceptions.json")
 svg_exceptions_android_path = os.path.join(exceptions_DIR, "svg_exceptions_android.json")
 svg_exceptions_preview_path = os.path.join(exceptions_DIR, "svg_exceptions_preview.json")
+svg_exceptions_preview_new_path = os.path.join(exceptions_DIR, "svg_exceptions_preview_new.json")
 #svg_exceptions_preview_path = os.path.join(staging_DIR, "svg_exceptions_preview.json")
 
 
@@ -113,6 +115,12 @@ def download_flag(url, filename, flag):
         filepath = os.path.join(image_DIR, filename)
         with open(filepath, "wb") as f:
             f.write(response.content)
+        
+        size_bytes = Path(filepath).stat().st_size
+        if size_bytes >= 50000:
+            if flag not in svg_exceptions_preview:
+                svg_exceptions_preview.append(flag)
+        
         print(f"Downloaded: {filename}")
     else:
         if "_preview" in filename:
@@ -174,3 +182,8 @@ print(f"--- \"{flag_image_download_failed_path}\" exported. ---")
 with open(thumburl_not_found_path, "w") as file:
     json.dump(thumburl_not_found, file, indent=4, sort_keys=True)
 print(f"--- \"{thumburl_not_found_path}\" exported. ---")
+
+"""Save new svg_exceptions_preview with updates from download_flag()"""
+svg_exceptions_preview.sort()
+with open(svg_exceptions_preview_new_path, "w") as file:
+    json.dump(svg_exceptions_preview, file, indent=4)
