@@ -112,9 +112,9 @@ def return_official_name_from_wiki_intro(page):
             flag_of_is_the = True
             flag_of_official_is_the = True
             first_bold_name_is_the = True
-            print(f"INITIAL 'the' --- FOUND for --- {page}")
+            #print(f"INITIAL 'the' --- FOUND for --- {page}")
     except:
-        print(f"INITIAL 'the' --- NOT found for --- {page}")
+        #print(f"INITIAL 'the' --- NOT found for --- {page}")
     
     """Iteratively check matches to determine official name"""
     if match1:
@@ -130,13 +130,13 @@ def return_official_name_from_wiki_intro(page):
                     first_match_object_2 = next(extractions_the)
                     if first_match_object_2.group(0):
                         flag_of_official_is_the = True
-                        print(f"OFFICIAL name 'the' --- FOUND for --- {page}")
+                        #print(f"OFFICIAL name 'the' --- FOUND for --- {page}")
                     else:
                         flag_of_official_is_the = False
-                        print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
+                        #print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
                 except:
                     flag_of_official_is_the = False
-                    print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
+                    #print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
                     
             """Try returning extracted value"""
             return first_match_object.group(1)
@@ -156,13 +156,13 @@ def return_official_name_from_wiki_intro(page):
                     first_match_object_2 = next(extractions_the)
                     if first_match_object_2.group(0):
                         flag_of_official_is_the = True
-                        print(f"OFFICIAL name 'the' --- FOUND for --- {page}")
+                        #print(f"OFFICIAL name 'the' --- FOUND for --- {page}")
                     else:
                         flag_of_official_is_the = False
-                        print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
+                        #print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
                 except:
                     flag_of_official_is_the = False
-                    print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
+                    #print(f"OFFICIAL name 'the' --- NOT found for --- {page}")
                     
             """Try returning extracted value"""
             return first_match_object.group(1)
@@ -193,9 +193,9 @@ def return_official_name_from_wiki_intro(page):
             first_match_object = next(extractions_the)
             if first_match_object.group(0):
                 subsequent_bold_name_is_the = True
-            print(f"SUBSEQUENT 'the' --- FOUND for --- {page}")
+            #print(f"SUBSEQUENT 'the' --- FOUND for --- {page}")
         except:
-            print(f"SUBSEQUENT 'the' --- NOT found for --- {page}")
+            #print(f"SUBSEQUENT 'the' --- NOT found for --- {page}")
         
         """Return the longer of the extracted names since longer length more likely to mean official/formal name"""
         try:
@@ -260,9 +260,9 @@ def return_official_name_from_wiki_intro(page):
             first_match_object = next(extractions_the)
             if first_match_object.group(0):
                 subsequent_bold_name_is_the = True
-            print(f"SUBSEQUENT 'the' --- FOUND for --- {page}")
+            #print(f"SUBSEQUENT 'the' --- FOUND for --- {page}")
         except:
-            print(f"SUBSEQUENT 'the' --- NOT found for --- {page}")
+            #print(f"SUBSEQUENT 'the' --- NOT found for --- {page}")
         
         """Return the longer of the extracted names since longer length more likely to mean official/formal name"""
         try:
@@ -327,9 +327,9 @@ def return_official_name_from_wiki_intro(page):
             first_match_object = next(extractions_the)
             if first_match_object.group(0):
                 subsequent_bold_name_is_the = True
-            print(f"SUBSEQUENT 'the' --- FOUND for --- {page}")
+            #print(f"SUBSEQUENT 'the' --- FOUND for --- {page}")
         except:
-            print(f"SUBSEQUENT 'the' --- NOT found for --- {page}")
+            #print(f"SUBSEQUENT 'the' --- NOT found for --- {page}")
             
         """Return the longer of the extracted names since longer length more likely to mean official/formal name"""
         try:

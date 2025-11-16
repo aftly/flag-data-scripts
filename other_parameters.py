@@ -5,14 +5,14 @@ data_DIR = "data" # For existing data
 exceptions_DIR = "exceptions"
 staging_DIR = "staging" # For new data
 
-flags_dict_names_categories_path = os.path.join(data_DIR, "flags_dict_names_categories.json")
-#flags_dict_names_categories_path = os.path.join(staging_DIR, "flags_dict_names_categories.json")
-flags_dict_all_params_path = os.path.join(data_DIR, "flags_dict_all_params.json")
-#flags_dict_all_params_path = os.path.join(staging_DIR, "flags_dict_all_params.json")
-flags_dict_all_params_new_path = os.path.join(data_DIR, "flags_dict_all_params_new.json")
+#flags_dict_names_categories_path = os.path.join(data_DIR, "flags_dict_names_categories.json")
+flags_dict_names_categories_path = os.path.join(staging_DIR, "flags_dict_names_categories.json")
+#flags_dict_all_params_path = os.path.join(data_DIR, "flags_dict_all_params.json")
+flags_dict_all_params_path = os.path.join(staging_DIR, "flags_dict_all_params.json")
+#flags_dict_all_params_new_path = os.path.join(data_DIR, "flags_dict_all_params_new.json")
 
-flag_image_filenames_path = os.path.join(data_DIR, "flag_image_filenames.json")
-#flag_image_filenames_path = os.path.join(staging_DIR, "flag_image_filenames.json")
+#flag_image_filenames_path = os.path.join(data_DIR, "flag_image_filenames.json")
+flag_image_filenames_path = os.path.join(staging_DIR, "flag_image_filenames.json")
 wiki_page_exceptions_path = os.path.join(exceptions_DIR, "wiki_page_exceptions.json")
 #wiki_page_exceptions_path = os.path.join(staging_DIR, "wiki_page_exceptions.json")
 
@@ -59,16 +59,6 @@ for flag, info in list(flags_dict.items()):
         except:
             flags_dict[flag]["categories"] = []
     try:
-        categories = info["category_count"]
-    except:
-        try:
-            if info["previous_flag_of"]:
-                flags_dict[flag]["category_count"] = 1
-            else:
-                flags_dict[flag]["category_count"] = len(info["categories"])
-        except:
-            flags_dict[flag]["category_count"] = len(info["categories"])
-    try:
         flag_of = info["flag_of"]
     except:
         flags_dict[flag]["flag_of"] = None
@@ -80,16 +70,6 @@ for flag, info in list(flags_dict.items()):
         flag_of_alt = info["flag_of_alt"]
     except:
         flags_dict[flag]["flag_of_alt"] = None
-    try:
-        flag_of_alt_count = info["flag_of_alt_count"]
-    except:
-        try:
-            if info["previous_flag_of"]:
-                flags_dict[flag]["flag_of_alt_count"] = None
-            else:
-                flags_dict[flag]["flag_of_alt_count"] = []
-        except:
-            flags_dict[flag]["flag_of_alt_count"] = []
     try:
         flag_of_is_the = info["flag_of_is_the"]
     except:

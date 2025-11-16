@@ -123,7 +123,8 @@ with open(svg_exceptions_preview_path, "r") as file:
 #    json.dump(svg_exceptions_android, file, indent=4)
 
 #with open(svg_exceptions_preview_new_path, "w") as file:
-#    json.dump(svg_exceptions_preview, file, indent=4)
+    #json.dump(svg_exceptions_preview, file, indent=4)
+    #json.dump(svg_exceptions_preview_new, file, indent=4)
 
 #with open(wiki_page_exceptions_new_path, "w") as file:
 #    json.dump(wiki_page_exceptions, file, indent=4, sort_keys=True)

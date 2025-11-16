@@ -169,10 +169,10 @@ for flag, info in flags_dict.items():
         page = flag if flag not in page_exceptions else page_exceptions[flag]
         """If wiki page found use primary filename get method"""
         if flag in image_exceptions:
-            print(f"{flag} --- Wikipedia image FOUND")
+            #print(f"{flag} --- Wikipedia image FOUND")
             wiki_images[flag] = image_filename
         elif image_filename.startswith("Flag_of_") or image_filename.startswith("Bandera_de_") or any(string in image_filename for string in flag_strings):
-            print(f"{flag} --- Wikipedia image FOUND")
+            #print(f"{flag} --- Wikipedia image FOUND")
             wiki_images[flag] = image_filename
         else:
             """Use alternative filename get method"""
@@ -184,14 +184,16 @@ for flag, info in flags_dict.items():
                 
                 image_filename_3 = get_wiki_page_image_free_filename("Flag_of_" + page)
                 if image_filename_3:
-                    print(f"{flag} --- Wikipedia image FOUND")
+                    #print(f"{flag} --- Wikipedia image FOUND")
                     wiki_images[flag] = image_filename_3
                 elif any(string in image_filename for string in flag_strings):
-                    print(f"{flag} --- Wikipedia image FOUND")
+                    #print(f"{flag} --- Wikipedia image FOUND")
                     wiki_images[flag] = image_filename
                 else:
+                    print(f"{flag} --- Wikipedia image NOT FOUND")
                     wiki_images_not_found.append(flag)
     else:
+        print(f"{flag} --- Wikipedia image NOT FOUND")
         wiki_images_not_found.append(flag)
         
     try:
