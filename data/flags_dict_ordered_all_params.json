@@ -442,6 +442,42 @@
             "state"
         ]
     },
+    "Al_Qaeda": {
+        "wikipedia_en_url": "https://en.wikipedia.org/wiki/Al_Qaeda",
+        "image": "Flag_of_Jihad.svg",
+        "flag_from_year": null,
+        "flag_from_year_circa": null,
+        "flag_to_year": null,
+        "flag_to_year_circa": null,
+        "flag_of": "Al-Qaeda",
+        "flag_of_descriptor": null,
+        "flag_of_official": "Al-Qaeda",
+        "flag_of_alt": [
+            "al-Qa'ida",
+            "al-Qaida",
+            "al-Qaeda",
+            "Qaedat al-Jihad",
+            "Al Qaeda",
+            "The Base",
+            "The Foundation",
+            "al-Qa'idah"
+        ],
+        "flag_of_is_the": false,
+        "flag_of_official_is_the": false,
+        "international_organizations": [],
+        "associated_state": null,
+        "sovereign_state": null,
+        "parent_unit": null,
+        "latest_entities": [],
+        "previous_flag_of": null,
+        "categories": [
+            "theocratic",
+            "militant_organization",
+            "unrecognized_state",
+            "quasi_state",
+            "terrorist_organization"
+        ]
+    },
     "Al_Qassam_Brigades": {
         "wikipedia_en_url": "https://en.wikipedia.org/wiki/Al_Qassam_Brigades",
         "image": "Flag_of_al-Qassam_Brigades.svg",
@@ -943,7 +979,9 @@
         "latest_entities": [],
         "previous_flag_of": null,
         "categories": [
-            "political_movement"
+            "political_movement",
+            "unrecognized_state",
+            "quasi_state"
         ]
     },
     "American_Samoa": {
@@ -9961,7 +9999,7 @@
             "Islamic Resistance Movement",
             "Harakat al-Muqawama al-Islamiya"
         ],
-        "flag_of_is_the": true,
+        "flag_of_is_the": false,
         "flag_of_official_is_the": true,
         "international_organizations": [],
         "associated_state": null,
@@ -10480,6 +10518,8 @@
             "theocratic",
             "political_organization",
             "military",
+            "unrecognized_state",
+            "quasi_state",
             "terrorist_organization"
         ]
     },
@@ -11112,8 +11152,8 @@
         "flag_from_year_circa": null,
         "flag_to_year": null,
         "flag_to_year_circa": null,
-        "flag_of": "Islamic State",
-        "flag_of_descriptor": null,
+        "flag_of": "Daesh",
+        "flag_of_descriptor": "(IS)",
         "flag_of_official": "Islamic State of Iraq and the Levant",
         "flag_of_alt": [
             "Islamic State of Iraq and Levant",
@@ -11128,19 +11168,25 @@
             "ISIL",
             "Islamic State in Iraq and Syria"
         ],
-        "flag_of_is_the": true,
+        "flag_of_is_the": false,
         "flag_of_official_is_the": true,
         "international_organizations": [],
         "associated_state": null,
         "sovereign_state": null,
         "parent_unit": null,
-        "latest_entities": [],
+        "latest_entities": [
+            "Iraq",
+            "Syria"
+        ],
         "previous_flag_of": null,
         "categories": [
             "theocratic",
-            "political_organization",
-            "military",
-            "terrorist_organization"
+            "militant_organization",
+            "unrecognized_state",
+            "quasi_state",
+            "terrorist_organization",
+            "totalitarian",
+            "theocracy"
         ]
     },
     "Isle_of_Man": {
@@ -12618,7 +12664,7 @@
         "flag_from_year_circa": false,
         "flag_to_year": 0,
         "flag_to_year_circa": false,
-        "flag_of": "Sovereign Military Order of Malta",
+        "flag_of": "Knights of Malta",
         "flag_of_descriptor": null,
         "flag_of_official": "Sovereign Military Hospitaller Order of Saint John of Jerusalem, of Rhodes and of Malta",
         "flag_of_alt": [
@@ -25435,8 +25481,8 @@
         "flag_from_year_circa": null,
         "flag_to_year": null,
         "flag_to_year_circa": null,
-        "flag_of": "Umm Al Quwain (emirate)",
-        "flag_of_descriptor": null,
+        "flag_of": "Umm Al Quwain",
+        "flag_of_descriptor": "(emirate)",
         "flag_of_official": "Emirate of Umm Al Quwain",
         "flag_of_alt": [],
         "flag_of_is_the": false,
