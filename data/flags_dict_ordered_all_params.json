@@ -16264,7 +16264,7 @@
         ],
         "associated_state": null,
         "sovereign_state": null,
-        "parent_unit": null,
+        "parent_unit": "Australia",
         "latest_entities": [],
         "previous_flag_of": null,
         "categories": [
@@ -16272,7 +16272,8 @@
             "unitary",
             "parliamentary",
             "constitutional",
-            "republic"
+            "republic",
+            "microstate"
         ]
     },
     "Navajo_Nation": {
@@ -25241,7 +25242,7 @@
         ],
         "associated_state": null,
         "sovereign_state": null,
-        "parent_unit": null,
+        "parent_unit": "Australia",
         "latest_entities": [],
         "previous_flag_of": null,
         "categories": [
@@ -25249,7 +25250,8 @@
             "unitary",
             "parliamentary",
             "constitutional",
-            "monarchy"
+            "monarchy",
+            "microstate"
         ]
     },
     "Tver_(oblast)": {
